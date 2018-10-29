@@ -1,15 +1,15 @@
 @font-face {
     font-family: "enchanted_land-webfont";
-    src: url("./assets/font/enchanted_land-webfont.eot"),
-    url("./assets/font/enchanted_land-webfont.woff") format("woff"),
-    url("./assets/font/enchanted_land-webfont.otf") format("opentype");
+    src: url("../assets/font/enchanted_land-webfont.eot");
+   
 }
 
-body{
+.main{
   background:url("../assets/images/login.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
   font-family: "enchanted_land-webfont";
   font-size: 16px;
+  height:auto;
 }
