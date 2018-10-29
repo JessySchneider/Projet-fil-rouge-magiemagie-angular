@@ -5,12 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './liste-avatar.component.html',
   styleUrls: ['./liste-avatar.component.scss']
 })
-export class listeAvatarComponent implements OnInit {
-  constructor() {
-  }
+export class ListeAvatarComponent implements OnInit {
+
+  constructor() { }
 
   ngOnInit() {
   }
+
 }
-
-

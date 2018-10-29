@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { BoutonInterfaceRedComponent } from './bouton-interface-red/bouton-interface-red.component';
+import { ListeAvatarComponent } from './liste-avatar/liste-avatar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoutonInterfaceRedComponent
+    BoutonInterfaceRedComponent,
+    ListeAvatarComponent
   ],
   imports: [
     BrowserModule,
@@ -16,4 +19,5 @@ import { BoutonInterfaceRedComponent } from './bouton-interface-red/bouton-inter
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
