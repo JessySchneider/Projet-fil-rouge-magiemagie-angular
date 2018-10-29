@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fbd707f-1c37-4122-92d1-061c79baa8bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MagieMagie/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="5fbd707f-1c37-4122-92d1-061c79baa8bb" name="Default Changelist" comment="images dans assets">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/assets/images/avatar3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/assets/images/avatar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/ava6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/avatar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/assets/images/avatar2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/assets/images/elfe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/assets/images/avatar4.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,6 +50,16 @@
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="18" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -59,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-avatar/liste-avatar.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -196,6 +215,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Administrateur\WebstormProjects\Projet-fil-rouge-magiemagie-angular\MagieMagie\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
@@ -220,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540810680817</updated>
-      <workItem from="1540810682341" duration="2177000" />
+      <workItem from="1540810682341" duration="3310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2177000" />
+    <option name="totallyTimeSpent" value="3310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -286,7 +306,7 @@
     <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-avatar/liste-avatar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
