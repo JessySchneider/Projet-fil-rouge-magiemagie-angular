@@ -1,0 +1,14 @@
+button{
+    padding:10px;
+    color:white;
+    background-color:#b70000;
+    border:inherit;
+    transition : all 0.3s ease-out;
+    font-family: "enchanted_land-webfont";
+    font-size:1.5em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #a50000;   
+}
