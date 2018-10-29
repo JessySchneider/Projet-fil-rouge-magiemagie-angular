@@ -1,72 +1,72 @@
 .blocIdentification{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width:700px;
-    margin: 0 auto;
-    align-items: center;
-  }
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:700px;
+  margin: 0 auto;
+  align-items: center;
+}
+.blocAvatar{
+  flex-direction: row;
+  width:850px;
+  justify-items: center;
+  margin-left: 210px;
+}
 
-  .blocAvatar{
-    flex-direction: row;
-    width:850px;
-  }
-  
- input[type=radio]{
-    display: none;
-  }
- img:hover /* Apparence au survol des liens */
-  {
-    /*    border-style: solid;
-        border-width: 10px;
-        border-color: whitesmoke;
-        border-radius: 30px;*/
-    /*box-shadow: 9px 10px 7px -3px rgb(0,0,0); */
-    transform:scale(1.25);
-    z-index: 10;
-    position: relative;
-  }
+.blocAvatar input[type=radio]{
+  display: none;
+}
+.blocAvatar img:hover /* Apparence au survol des liens */
+{
+  /*    border-style: solid;
+      border-width: 10px;
+      border-color: whitesmoke;
+      border-radius: 30px;*/
+  /*box-shadow: 9px 10px 7px -3px rgb(0,0,0); */
+  transform:scale(1.25);
+  z-index: 10;
+  position: relative;
+}
+.blocAvatar img {
+  transition: all 0.1s linear;
+  filter:grayscale(100%);
 
- img {
-    transition: all 0.1s linear;
-    filter:grayscale(100%);
-  
-  
-  }
-  h1{
-    color:white;
-    font-size: 3rem;
-  }
-  .imagetoggle{
-  
-    border-radius: 5px;
-    filter:contrast(100%) !important;
-    box-shadow: 0px 5px 46px 11px rgba(247,0,41,0.88);
-    position:relative;
-    z-index: 10;
-  
-  
-    /*    transition:all 0.3s ease-out;*/
-  }
-  img{
-    width: 150px;
-    height: 200px;
-  }
-  .valide{
-    cursor:pointer;
-    padding:10px;
-    color:white;
-    background-color:#b70000;
-    border:inherit;
-    border-radius: 0px 5px 5px 0px;
-    transition : all 0.3s ease-out;
-    font-family: "enchanted_land-webfont";
-    font-size:3.5rem;
-    width: 400px;
-    margin-top: 10px;
-  }
-  .identite{
-    height:50px ;
-    width: 400px;
-    margin-bottom: 30px;
-  }
+
+}
+h1{
+  color:white;
+  font-size: 3rem;
+}
+.imagetoggle{
+
+  border-radius: 5px;
+  filter:contrast(100%) !important;
+  box-shadow: 0px 5px 46px 11px rgba(247,0,41,0.88);
+  position:relative;
+  z-index: 10;
+
+
+  /*    transition:all 0.3s ease-out;*/
+}
+img{
+  width: 150px;
+  height: 200px;
+}
+.valide{
+  cursor:pointer;
+  padding:10px;
+  color:white;
+  background-color:#b70000;
+  border:inherit;
+  border-radius: 0px 5px 5px 0px;
+  transition : all 0.3s ease-out;
+  font-family: "enchanted_land-webfont";
+  font-size:3.5rem;
+  width: 400px;
+  margin-top: 150px;
+}
+.identite{
+  height:50px ;
+  width: 400px;
+  margin-bottom: 150px;
+}
