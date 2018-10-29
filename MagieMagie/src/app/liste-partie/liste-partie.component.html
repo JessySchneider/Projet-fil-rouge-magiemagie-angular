@@ -3,9 +3,9 @@
     <img class="avatar-joueur"src="assets/images/avatar1.jpg" alt=""/>
     <span></span>
 </div>
-  <h2 class="titre-creez-partie">Créez votre partie </h2>
-    <form id="create-partie-form" class="container-creation-partie">
-        <input type="text" name="nomPartie"  placeholder="Nom de votre partie" />
+  <h2 class="titre-creez-partie" >Créez votre partie </h2>
+    <form #f="ngForm" id="create-partie-form" (ngSubmit)="createGame(f)" class="container-creation-partie">
+        <input type="text" name="nomPartie"  [(ngModel)]="nomPartie" placeholder="Nom de votre partie" />
         <input type="submit" value="Créer une partie" class="creer-une-partie" />
     </form>
 <div id="message"></div>
@@ -14,7 +14,7 @@
 <div class="container-listes-parties">
     <div *ngFor="let game of listeGames" class="bloc-partie">
         <div class="nom-partie">
-            Partie 
+            Partie {{game.name}} 
         </div>
         <div *ngFor="let player of game.players"class="informations-participant">
             <img src="assets/images/avatar2.jpg" alt=""/>

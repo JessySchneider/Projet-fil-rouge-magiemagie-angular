@@ -9,6 +9,7 @@ import { ListePartieComponent } from './liste-partie/liste-partie.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './routes';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     NgbModule,
+    FormsModule,
     RouterModule.forRoot(routes),
     HttpClientModule
   ],
