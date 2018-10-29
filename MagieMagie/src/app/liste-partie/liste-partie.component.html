@@ -1,0 +1,25 @@
+<div class="informations-utilisateur">   
+    <img src="assets/images/carte-joueur-avatar.png" alt=""/>
+    <img class="avatar-joueur"src="assets/images/avatar1.jpg" alt=""/>
+    <span></span>
+</div>
+  <h2 class="titre-creez-partie">Créez votre partie </h2>
+    <form id="create-partie-form" class="container-creation-partie">
+        <input type="text" name="nomPartie"  placeholder="Nom de votre partie" />
+        <input type="submit" value="Créer une partie" class="creer-une-partie" />
+    </form>
+<div id="message"></div>
+<h2 class="titre-liste-partie">Liste des parties disponibles </h2>
+
+<div class="container-listes-parties">
+    <div *ngFor="let game of listeGames" class="bloc-partie">
+        <div class="nom-partie">
+            Partie 
+        </div>
+        <div *ngFor="let player of game.players"class="informations-participant">
+            <img src="assets/images/avatar2.jpg" alt=""/>
+            <span>{{player.pseudo}}</span>
+        </div>
+        <button class="rejoindre-partie">Rejoindre la partie</button>       
+    </div>
+</div>

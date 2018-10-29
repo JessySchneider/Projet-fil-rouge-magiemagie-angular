@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';;
 import { ListeAvatarComponent } from './element-login/liste-avatar/liste-avatar.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './element-login/header/header.component';
+import { ListePartieComponent } from './liste-partie/liste-partie.component';
+import { RouterModule } from '@angular/router';
+import { routes } from './routes';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -12,11 +16,14 @@ import { HeaderComponent } from './element-login/header/header.component';
     AppComponent,
     ListeAvatarComponent,
     LoginComponent,
-    HeaderComponent
+    HeaderComponent,
+    ListePartieComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    RouterModule.forRoot(routes),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
