@@ -14,4 +14,8 @@ export class PlayerService {
 
     // return this.http.post('http://192.168.110.127:666/login', );
   }
+  login (player){
+
+  }
+
 }
