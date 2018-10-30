@@ -17,30 +17,26 @@ export class ListePartieComponent implements OnInit {
 
   private listeGames:Game[] = [];
   private nomPartie:string;
-  private currentPlayer:Player;
-  // listeAvatarComponent = new ListeAvatarComponent(this.avatarService,this.playerService);
+
 
   constructor(private gameService:GameService, 
-              private avatarService:AvatarService,
-              private playerService:PlayerService) { 
+              private playerService:PlayerService, 
+              private router:Router) { 
   
   }
 
   ngOnInit() {
     this.nomPartie="";
-    this.getGamesNotStarted();
-    // this.currentPlayer = this.listeAvatarComponent.getCurrentPlayer();
-   
+    this.getGamesNotStarted();   
+
   }
 
   getGamesNotStarted(){
     this.gameService.getGames().subscribe(games=>{
-      games.forEach(game => { 
-        if(!game.isStarted){
-          this.listeGames.push(game);
-        }
-       
-      }) 
+      this.listeGames = games;
+      setTimeout(()=>{
+          this.getGamesNotStarted();
+      },1000)
     });
    
   }
@@ -56,10 +52,13 @@ export class ListePartieComponent implements OnInit {
   joinGame(gameId){
     let currentPlayer = this.playerService.getCurrentPlayer();
     this.gameService.joinGame(gameId,currentPlayer._id).subscribe( (player:Player) => {
-        this.getGamesNotStarted();
+        let myGame = this.listeGames.filter(patate => patate.id === gameId);
+        myGame[0].players.push(player);
         this.playerService.setCurrentPlayer(player);
+        this.router.navigate(['/lobby'],{queryParams : {"gameId":gameId}});
         
     });
   }
+
 
 }

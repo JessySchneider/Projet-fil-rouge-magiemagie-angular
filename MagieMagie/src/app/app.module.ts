@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { routes } from './routes';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { LobbyComponent } from './lobby/lobby.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     ListeAvatarComponent,
     LoginComponent,
     HeaderComponent,
-    ListePartieComponent
+    ListePartieComponent,
+    LobbyComponent
   ],
   imports: [
     BrowserModule,

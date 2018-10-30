@@ -7,12 +7,14 @@ import {HttpClient} from '@angular/common/http';
 })
 export class GameService {
   constructor(private http:HttpClient) { 
-    
+  
   }
 
+ 
+
   getGames() {
+
     return this.http.get<Game[]>('http://192.168.110.127:666/games/not-started');
-     
   }
 
   createGame(nomPartie){
@@ -22,5 +24,9 @@ export class GameService {
 
   joinGame(gameId,playerId){
     return this.http.post('http://192.168.110.127:666/games/'+gameId+'/join/'+playerId,{});
+  }
+
+  getStateGame(gameId){
+    return this.http.get('http://192.168.110.127:666/games/'+gameId);
   }
 }
