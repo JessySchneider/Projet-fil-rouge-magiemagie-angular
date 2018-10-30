@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fbd707f-1c37-4122-92d1-061c79baa8bb" name="Default Changelist" comment="images dans assets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,15 +26,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="11" />
-          <entry key="scss" value="5" />
+          <entry key="html" value="12" />
+          <entry key="scss" value="6" />
           <entry key="ts" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
-          <entry key="SCSS" value="5" />
+          <entry key="HTML" value="12" />
+          <entry key="SCSS" value="6" />
           <entry key="TypeScript" value="27" />
         </counts>
       </usages-collector>
@@ -50,7 +47,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="488" />
-          <entry key="scss" value="173" />
+          <entry key="scss" value="216" />
           <entry key="ts" value="682" />
           <entry key="txt" value="18" />
         </counts>
@@ -59,7 +56,7 @@
         <counts>
           <entry key="HTML" value="488" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="SCSS" value="173" />
+          <entry key="SCSS" value="216" />
           <entry key="TypeScript" value="682" />
         </counts>
       </usages-collector>
@@ -70,86 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.ts">
+        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/routes.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/Services/card.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/Services/avatar.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="236">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -181,7 +109,6 @@
         <option value="$PROJECT_DIR$/MagieMagie/src/app/liste-avatar/liste-avatar.component.scss" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/liste-avatar/liste-avatar.html" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/login/login.component.html" />
-        <option value="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/Services/avatar.service.ts" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/Services/player.service.ts" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.html" />
@@ -191,6 +118,7 @@
         <option value="$PROJECT_DIR$/MagieMagie/src/app/routes.ts" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.html" />
         <option value="$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.scss" />
+        <option value="$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss" />
       </list>
     </option>
   </component>
@@ -252,7 +180,7 @@
               <item name="MagieMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="liste-carte" type="462c0819:PsiDirectoryNode" />
+              <item name="element-login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projet-fil-rouge-magiemagie-angular" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +188,8 @@
               <item name="MagieMagie" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="element-login" type="462c0819:PsiDirectoryNode" />
+              <item name="liste-avatar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projet-fil-rouge-magiemagie-angular" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +263,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24708000" />
+    <option name="totallyTimeSpent" value="25495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -411,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/models/avatar.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -469,6 +391,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/Services/avatar.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -489,17 +431,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.html">
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="228">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,33 +448,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.ts">
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/routes.ts">
+    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/element-login/liste-avatar/liste-avatar.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MagieMagie/src/app/liste-carte/liste-carte.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="236">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
