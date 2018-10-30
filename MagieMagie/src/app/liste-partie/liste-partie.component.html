@@ -1,7 +1,7 @@
 <div class="informations-utilisateur">   
     <img src="assets/images/carte-joueur-avatar.png" alt=""/>
-    <img class="avatar-joueur"src="assets/images/avatar1.jpg" alt=""/>
-    <span></span>
+    <img class="avatar-joueur"src="/assets/images/{{currentPlayer.avatar.code}}.jpg" alt=""/>
+    <span>{{currentPlayer.pseudo}}</span>
 </div>
   <h2 class="titre-creez-partie" >Créez votre partie </h2>
     <form #f="ngForm" id="create-partie-form" (ngSubmit)="createGame(f)" class="container-creation-partie">
@@ -18,8 +18,9 @@
             Partie {{game.name}} 
         </div>
         <div *ngFor="let player of game.players"class="informations-participant">
-            <img src="assets/images/avatar2.jpg" alt=""/>
+            <!-- <img src="/assets/images/{{player.avatar.code}}.jpg" alt=""/> -->
             <span>{{player.pseudo}}</span>
+            
         </div>
         <button class="rejoindre-partie" (click)="joinGame(game._id)">Rejoindre la partie</button>       
     </div>
