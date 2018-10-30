@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Avatar } from 'src/app/models/avatar';
 import { AvatarService } from 'src/app/Services/avatar.service';
 import {Player} from "../../models/player";
+import {NgForm} from "@angular/forms";
+import {PlayerService} from "../../Services/player.service";
 
 @Component({
   selector: 'app-liste-avatar',
@@ -9,9 +11,8 @@ import {Player} from "../../models/player";
   styleUrls: ['./liste-avatar.component.scss']
 })
 export class ListeAvatarComponent implements OnInit {
-  private listeAvatar:Avatar[] = [];
-  private tmpAvatar:Avatar;
-  player  = {
+  listeAvatar:Avatar[] = [];
+   player  = {
     pseudo: "",
     idAvatar: ""
 }
@@ -19,7 +20,7 @@ export class ListeAvatarComponent implements OnInit {
 
 
 
-  constructor(private avatarService:AvatarService) {
+  constructor(private avatarService:AvatarService,private playerService:PlayerService) {
 
   }
 
@@ -32,8 +33,10 @@ export class ListeAvatarComponent implements OnInit {
         this.listeAvatar = avatars;
     });
   }
-  validate(){
-    console.log(this.player);
+  login (){
+    this.playerService.login(this.player).subscribe(player=>{
+
+    });
 
 
   }
