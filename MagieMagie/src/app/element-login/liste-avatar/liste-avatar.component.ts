@@ -16,7 +16,7 @@ export class ListeAvatarComponent implements OnInit {
     pseudo: "",
     idAvatar: ""
 }
-
+private currentPlayer:Player;
 
 
 
@@ -34,10 +34,11 @@ export class ListeAvatarComponent implements OnInit {
     });
   }
   login (){
-    this.playerService.login(this.player).subscribe(player=>{
+    this.playerService.login(this.player).subscribe((player:Player) =>{
 
+     this.currentPlayer=player;
+      console.log(this.currentPlayer);
     });
-
 
   }
 

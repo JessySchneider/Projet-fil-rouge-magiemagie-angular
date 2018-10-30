@@ -2,7 +2,7 @@
 
 <div class="blocIdentification">
   
-  <form #f="ngForm" (ngSubmit)="validate(f)">
+  <form #f="ngForm" (ngSubmit)="login()">
     <input type="text" placeholder="Nom d'utilisateur" name="utilisateur"  class="identite"  [(ngModel)]="player.pseudo">
     <div class="blocAvatar">
       <div class="avatar" *ngFor="let avatar of listeAvatar" name="body" >
