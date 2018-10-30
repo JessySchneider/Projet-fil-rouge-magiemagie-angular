@@ -11,6 +11,7 @@ import { routes } from './routes';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LobbyComponent } from './lobby/lobby.component';
+import { ListeCarteComponent } from './liste-carte/liste-carte.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LobbyComponent } from './lobby/lobby.component';
     LoginComponent,
     HeaderComponent,
     ListePartieComponent,
-    LobbyComponent
+    LobbyComponent,
+    ListeCarteComponent
   ],
   imports: [
     BrowserModule,

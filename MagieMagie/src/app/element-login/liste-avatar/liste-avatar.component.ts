@@ -29,7 +29,7 @@ private currentPlayer:Player;
 
   getAvatar(){
     this.avatarService.getAvatars().subscribe( avatars =>{
-        this.listeAvatar = avatars;
+      this.listeAvatar = avatars;
     });
   }
 
