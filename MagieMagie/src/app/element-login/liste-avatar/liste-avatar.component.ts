@@ -9,8 +9,19 @@ import { AvatarService } from 'src/app/Services/avatar.service';
 })
 export class ListeAvatarComponent implements OnInit {
   private listeAvatar:Avatar[] = [];
-  constructor(private avatarService:AvatarService) {
+  private tmpAvatar:Avatar;
+  
+  
 
+  constructor(private avatarService:AvatarService) {
+    this.tmpAvatar = new Avatar(1,"avatar1");
+    this.listeAvatar.push(this.tmpAvatar);
+    this.tmpAvatar = new Avatar(2,"avatar2");
+    this.listeAvatar.push(this.tmpAvatar);
+    this.tmpAvatar = new Avatar(3,"avatar3");
+    this.listeAvatar.push(this.tmpAvatar);
+    this.tmpAvatar = new Avatar(4,"avatar4");
+    this.listeAvatar.push(this.tmpAvatar);
   }
 
   ngOnInit() {

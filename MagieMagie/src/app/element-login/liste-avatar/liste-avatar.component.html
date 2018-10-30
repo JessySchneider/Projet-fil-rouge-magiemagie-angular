@@ -1,15 +1,14 @@
 <h1>Choisissez un nom d'utilisateur et un avatar</h1>
 
 <div class="blocIdentification">
-
-  <input type="text" placeholder="Nom d'utilisateur" name="utilisateur" class="identite">
-
-  <form name="form">
+  
+  <form #f="ngForm" >
+    <input type="text" placeholder="Nom d'utilisateur" name="utilisateur"  (ngSubmit)="logIn(f)" class="identite">
     <div class="blocAvatar">
-      <label *ngFor="let avatar as listeAvatar">
+      <div class="avatar" *ngFor="let avatar of listeAvatar">
         <input type="radio" name="nrj" value="{{avatar._id}}">
-        <img src="/assets/images/{{avatar.code}}.jpg" alt="" />
-      </label>
+        <img (click)="status=!status" [ngClass]="status ? 'imagetoggle' : ''" src="/assets/images/{{avatar.code}}.jpg" alt="" />
+      </div>
     </div>
   </form>
   <input type="submit" value="Valider" class="valide">

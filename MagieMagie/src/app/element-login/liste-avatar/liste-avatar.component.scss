@@ -1,16 +1,25 @@
+h1{
+  font-size: 2rem;
+  color:white;
+  text-align: center;
+}
+
 .blocIdentification{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  width:700px;
-  margin: 0 auto;
   align-items: center;
+  width:700px;
+  
 }
+
+
 .blocAvatar{
+  display: flex;
   flex-direction: row;
-  width:850px;
-  justify-items: center;
-  margin-left: 210px;
+}
+.avatar{
+  padding: 0 10px;
 }
 
 .blocAvatar input[type=radio]{
@@ -18,40 +27,29 @@
 }
 .blocAvatar img:hover /* Apparence au survol des liens */
 {
-  /*    border-style: solid;
-      border-width: 10px;
-      border-color: whitesmoke;
-      border-radius: 30px;*/
-  /*box-shadow: 9px 10px 7px -3px rgb(0,0,0); */
   transform:scale(1.25);
   z-index: 10;
   position: relative;
 }
+
 .blocAvatar img {
-  transition: all 0.1s linear;
+  transition: all 0.3s ease-out;
   filter:grayscale(100%);
-
-
 }
-h1{
-  color:white;
-  font-size: 3rem;
-}
+
 .imagetoggle{
-
   border-radius: 5px;
   filter:contrast(100%) !important;
   box-shadow: 0px 5px 46px 11px rgba(247,0,41,0.88);
   position:relative;
   z-index: 10;
-
-
-  /*    transition:all 0.3s ease-out;*/
 }
+
 img{
   width: 150px;
   height: 200px;
 }
+
 .valide{
   cursor:pointer;
   padding:10px;
@@ -61,12 +59,20 @@ img{
   border-radius: 0px 5px 5px 0px;
   transition : all 0.3s ease-out;
   font-family: "enchanted_land-webfont";
-  font-size:3.5rem;
+  font-size:2rem;
   width: 400px;
-  margin-top: 150px;
+  margin-top: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
 }
 .identite{
   height:50px ;
   width: 400px;
-  margin-bottom: 150px;
+  margin-bottom: 10px;
+  padding:5px;
+  align-self: center;
 }
