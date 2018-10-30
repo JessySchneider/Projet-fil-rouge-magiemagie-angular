@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Avatar } from 'src/app/models/avatar';
 import { AvatarService } from 'src/app/Services/avatar.service';
+import {Player} from "../../models/player";
 
 @Component({
   selector: 'app-liste-avatar',
@@ -10,8 +11,13 @@ import { AvatarService } from 'src/app/Services/avatar.service';
 export class ListeAvatarComponent implements OnInit {
   private listeAvatar:Avatar[] = [];
   private tmpAvatar:Avatar;
-  
-  
+  player  = {
+    pseudo: "",
+    idAvatar: ""
+}
+
+
+
 
   constructor(private avatarService:AvatarService) {
 
@@ -25,6 +31,11 @@ export class ListeAvatarComponent implements OnInit {
     this.avatarService.getAvatars().subscribe( avatars =>{
         this.listeAvatar = avatars;
     });
+  }
+  validate(){
+    console.log(this.player);
+
+
   }
 
 

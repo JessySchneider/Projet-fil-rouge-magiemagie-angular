@@ -2,11 +2,11 @@
 
 <div class="blocIdentification">
   
-  <form #f="ngForm" >
-    <input type="text" placeholder="Nom d'utilisateur" name="utilisateur"  (ngSubmit)="logIn(f)" class="identite">
+  <form #f="ngForm" (ngSubmit)="validate(f)">
+    <input type="text" placeholder="Nom d'utilisateur" name="utilisateur"  class="identite"  [(ngModel)]="player.pseudo">
     <div class="blocAvatar">
-      <div class="avatar" *ngFor="let avatar of listeAvatar">
-        <input type="radio" name="nrj" value="{{avatar._id}}">
+      <div class="avatar" *ngFor="let avatar of listeAvatar" name="body" >
+        <input type="radio" name="nrj" value="{{avatar._id}}" [(ngModel)]="player.idAvatar">
         <img (click)="avatarSelected = avatar" [class.imagetoggle]="avatarSelected && avatarSelected._id == avatar._id" src="/assets/images/{{avatar.code}}.jpg" alt="" />
       </div>
     </div>
