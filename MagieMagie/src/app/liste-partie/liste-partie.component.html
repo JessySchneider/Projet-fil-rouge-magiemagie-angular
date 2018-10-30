@@ -19,8 +19,7 @@
         </div>
         <div *ngFor="let player of game.players"class="informations-participant">
             <!-- <img src="/assets/images/{{player.avatar.code}}.jpg" alt=""/> -->
-            <span>{{player.pseudo}}</span>
-            
+            <span>{{player.pseudo}}</span> 
         </div>
         <button class="rejoindre-partie" (click)="joinGame(game._id)">Rejoindre la partie</button>       
     </div>

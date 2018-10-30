@@ -8,5 +8,5 @@
    
 </main>
 <footer>
-    <button *ngIf='isStartable' class="demarrer-partie">Démarrer la partie</button>
+    <button *ngIf='isStartable' class="demarrer-partie" (click)="startGame(currentGame._id)">Démarrer la partie</button>
 </footer>

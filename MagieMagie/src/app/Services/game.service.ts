@@ -29,4 +29,13 @@ export class GameService {
   getStateGame(gameId){
     return this.http.get('http://192.168.110.127:666/games/'+gameId);
   }
+
+  startGame(gameId){
+    return this.http.post('http://192.168.110.127:666/games/'+gameId+'/start',{});
+  }
+
+  getCurrentStateGame(gameId, playerId){
+    return this.http.get('http://192.168.110.127:666/games/'+gameId+'/state/'+playerId);
+  }
+
 }

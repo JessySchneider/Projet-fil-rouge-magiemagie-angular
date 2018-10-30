@@ -1,0 +1,14 @@
+<div class="adversaire" *ngFor="let player of listePlayer.others"  >
+    {{player.pseudo}}
+    <div *ngFor="let card of player.hand" class="hand">
+            <img src="/assets/images/carte-dos.png" alt="" >           
+    </div>
+</div>
+
+<div class="joueur" >
+        {{listePlayer.principal.pseudo}}
+        <div *ngFor="let card of listePlayer.principal.hand" class="hand">
+            <img src="/assets/images/{{card.code}}.png" alt="" >           
+        </div>
+</div>
+  

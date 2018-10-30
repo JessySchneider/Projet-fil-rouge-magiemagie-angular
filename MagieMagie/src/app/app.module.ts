@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LobbyComponent } from './lobby/lobby.component';
 import { ListeCarteComponent } from './liste-carte/liste-carte.component';
+import { PlateauDeJeuComponent } from './plateau-de-jeu/plateau-de-jeu.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ListeCarteComponent } from './liste-carte/liste-carte.component';
     HeaderComponent,
     ListePartieComponent,
     LobbyComponent,
-    ListeCarteComponent
+    ListeCarteComponent,
+    PlateauDeJeuComponent
   ],
   imports: [
     BrowserModule,

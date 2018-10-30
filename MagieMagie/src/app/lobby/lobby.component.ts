@@ -27,7 +27,7 @@ export class LobbyComponent implements OnInit {
     this.gameService.getStateGame(gameId).subscribe( (game:Game) => {
         
         this.currentGame = game;
-        
+
         if(this.currentGame.players.length >= 2){
           this.isStartable = true;
         }else{
@@ -36,6 +36,12 @@ export class LobbyComponent implements OnInit {
         setTimeout(()=>{
           this.getGameState(gameId);
       },3000)
+    });
+  }
+
+  startGame(gameId){
+    this.gameService.startGame(gameId).subscribe(game => {
+      this.router.navigate(['/plateau-de-jeu'],{queryParams : {"gameId":gameId}});
     });
   }
 
