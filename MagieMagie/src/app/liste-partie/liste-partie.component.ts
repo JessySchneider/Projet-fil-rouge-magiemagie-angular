@@ -17,6 +17,7 @@ export class ListePartieComponent implements OnInit {
 
   private listeGames:Game[] = [];
   private nomPartie:string;
+  private currentPlayer:Player;
 
 
   constructor(private gameService:GameService, 
@@ -28,6 +29,7 @@ export class ListePartieComponent implements OnInit {
   ngOnInit() {
     this.nomPartie="";
     this.getGamesNotStarted();   
+    this.currentPlayer = this.playerService.getCurrentPlayer();
 
   }
 
@@ -36,7 +38,7 @@ export class ListePartieComponent implements OnInit {
       this.listeGames = games;
       setTimeout(()=>{
           this.getGamesNotStarted();
-      },1000)
+      },3000)
     });
    
   }
