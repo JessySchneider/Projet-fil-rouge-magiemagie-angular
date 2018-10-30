@@ -1,26 +1,12 @@
-<h1> Lobby - "Nom de la partie" </h1>
+<h1>{{currentGame.name}}</h1>
 <main>
-    <div class="container-informations-joueurs-lobby">
+    <div *ngFor="let player of currentGame.players" class="container-informations-joueurs-lobby">
         <img src="/assets/images/carte-joueur-avatar.png" alt=""/>
-        <img class="avatar-joueur" src="/assets/images/avatar1.jpg" alt=""/>
-        <span>Player 1</span>
+        <img class="avatar-joueur" src="/assets/images/{{player.avatar.code}}.jpg" alt=""/>
+        <span>{{player.pseudo}}</span>
     </div>
-    <div class="container-informations-joueurs-lobby">
-        <img src="/assets/images/carte-joueur-avatar.png" alt=""/>
-        <img class="avatar-joueur" src="/assets/images/avatar1.jpg" alt=""/>
-        <span>Player 1</span>
-    </div>
-    <div class="container-informations-joueurs-lobby">
-        <img src="/assets/images/carte-joueur-avatar.png" alt=""/>
-        <img class="avatar-joueur" src="/assets/images/avatar1.jpg" alt=""/>
-        <span>Player 1</span>
-    </div>
-    <div class="container-informations-joueurs-lobby">
-        <img src="/assets/images/carte-joueur-avatar.png" alt=""/>
-        <img class="avatar-joueur" src="/assets/images/avatar1.jpg" alt=""/>
-        <span>Player 1</span>
-    </div>
+   
 </main>
 <footer>
-    <button class="demarrer-partie">Démarrer la partie</button>
+    <button *ngIf='isStartable' class="demarrer-partie">Démarrer la partie</button>
 </footer>
