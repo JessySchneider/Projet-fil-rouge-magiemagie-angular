@@ -14,18 +14,11 @@ export class ListeAvatarComponent implements OnInit {
   
 
   constructor(private avatarService:AvatarService) {
-    this.tmpAvatar = new Avatar(1,"avatar1");
-    this.listeAvatar.push(this.tmpAvatar);
-    this.tmpAvatar = new Avatar(2,"avatar2");
-    this.listeAvatar.push(this.tmpAvatar);
-    this.tmpAvatar = new Avatar(3,"avatar3");
-    this.listeAvatar.push(this.tmpAvatar);
-    this.tmpAvatar = new Avatar(4,"avatar4");
-    this.listeAvatar.push(this.tmpAvatar);
+
   }
 
   ngOnInit() {
-
+    this.getAvatar();
   }
 
   getAvatar(){

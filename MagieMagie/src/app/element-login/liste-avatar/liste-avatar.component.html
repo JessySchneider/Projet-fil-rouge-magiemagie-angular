@@ -7,7 +7,7 @@
     <div class="blocAvatar">
       <div class="avatar" *ngFor="let avatar of listeAvatar">
         <input type="radio" name="nrj" value="{{avatar._id}}">
-        <img (click)="status=!status" [ngClass]="status ? 'imagetoggle' : ''" src="/assets/images/{{avatar.code}}.jpg" alt="" />
+        <img (click)="avatarSelected = avatar" [class.imagetoggle]="avatarSelected && avatarSelected._id == avatar._id" src="/assets/images/{{avatar.code}}.jpg" alt="" />
       </div>
     </div>
   </form>

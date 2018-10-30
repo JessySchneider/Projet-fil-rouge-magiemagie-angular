@@ -11,7 +11,7 @@ export class AvatarService {
   constructor(private http:HttpClient) { }
 
   getAvatars() {
-    return this.http.get<Avatar[]>('http://192.168.110.127:666/avatar');
+    return this.http.get<Avatar[]>('http://192.168.110.127:666/avatars');
      
   }
 }
