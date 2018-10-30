@@ -13,6 +13,7 @@
 
 <div class="container-listes-parties">
     <div *ngFor="let game of listeGames" class="bloc-partie">
+        <input type="hidden" name="" value="{{game._id}}">
         <div class="nom-partie">
             Partie {{game.name}} 
         </div>
@@ -20,6 +21,6 @@
             <img src="assets/images/avatar2.jpg" alt=""/>
             <span>{{player.pseudo}}</span>
         </div>
-        <button class="rejoindre-partie">Rejoindre la partie</button>       
+        <button class="rejoindre-partie" (click)="joinGame(game._id)">Rejoindre la partie</button>       
     </div>
 </div>

@@ -19,4 +19,8 @@ export class GameService {
     let game = new Game(nomPartie);
     return this.http.post('http://192.168.110.127:666/games',game);
   }
+
+  joinGame(gameId,playerId){
+    return this.http.post('http://192.168.110.127:666/games/'+gameId+'/join/'+playerId,{});
+  }
 }
